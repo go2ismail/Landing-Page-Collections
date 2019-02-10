@@ -1,0 +1,53 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="~/template/gaas/img/favicon.png" type="image/png">
+    <title>@ViewData["Title"] - Asp.Net Core 2.2</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/template/gaas/css/bootstrap.css">
+    <link rel="stylesheet" href="~/template/gaas/vendors/linericon/style.css">
+    <link rel="stylesheet" href="~/template/gaas/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/template/gaas/vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/template/gaas/css/magnific-popup.css">
+    <link rel="stylesheet" href="~/template/gaas/vendors/nice-select/css/nice-select.css">
+    <link rel="stylesheet" href="~/template/gaas/vendors/animate-css/animate.css">
+    <link rel="stylesheet" href="~/template/gaas/vendors/flaticon/flaticon.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="~/template/gaas/css/style.css">
+</head>
+
+<body>
+
+    <!--================Header Menu Area =================-->
+    @await Html.PartialAsync("_header")
+    <!--================Header Menu Area =================-->
+    @RenderBody()
+    <!--================Footer Area =================-->
+    @await Html.PartialAsync("_footer")
+    <!--================End Footer Area =================-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="~/template/gaas/js/jquery-3.2.1.min.js"></script>
+    <script src="~/template/gaas/js/popper.js"></script>
+    <script src="~/template/gaas/js/bootstrap.min.js"></script>
+    <script src="~/template/gaas/js/stellar.js"></script>
+    <script src="~/template/gaas/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/template/gaas/vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="~/template/gaas/vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="~/template/gaas/vendors/isotope/isotope-min.js"></script>
+    <script src="~/template/gaas/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="~/template/gaas/js/jquery.ajaxchimp.min.js"></script>
+    <script src="~/template/gaas/vendors/counter-up/jquery.waypoints.min.js"></script>
+    <script src="~/template/gaas/vendors/counter-up/jquery.counterup.min.js"></script>
+    <script src="~/template/gaas/js/mail-script.js"></script>
+    <!--gmaps Js-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+    <script src="~/template/gaas/js/gmaps.min.js"></script>
+    <script src="~/template/gaas/js/theme.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="~/template/bulkapp/img/favicon.png" type="image/png">
+    <title>@ViewData["title"] - Asp.Net Core 2.2</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/template/bulkapp/css/bootstrap.css">
+    <link rel="stylesheet" href="~/template/bulkapp/vendors/linericon/style.css">
+    <link rel="stylesheet" href="~/template/bulkapp/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/template/bulkapp/vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/template/bulkapp/vendors/lightbox/simpleLightbox.css">
+    <link rel="stylesheet" href="~/template/bulkapp/vendors/nice-select/css/nice-select.css">
+    <link rel="stylesheet" href="~/template/bulkapp/vendors/animate-css/animate.css">
+    <link rel="stylesheet" href="~/template/bulkapp/vendors/popup/magnific-popup.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="~/template/bulkapp/css/style.css">
+    <link rel="stylesheet" href="~/template/bulkapp/css/responsive.css">
+</head>
+<body data-spy="scroll" data-target="#mainNav" data-offset="70">
+
+    <!--================Header Menu Area =================-->
+    @await Html.PartialAsync("_header2")
+    <!--================Header Menu Area =================-->
+    @RenderBody()
+    <!--================ start footer Area  =================-->
+    @await Html.PartialAsync("_footer")
+    <!--================ End footer Area  =================-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="~/template/bulkapp/js/jquery-3.2.1.min.js"></script>
+    <script src="~/template/bulkapp/js/popper.js"></script>
+    <script src="~/template/bulkapp/js/bootstrap.min.js"></script>
+    <script src="~/template/bulkapp/js/stellar.js"></script>
+    <script src="~/template/bulkapp/vendors/lightbox/simpleLightbox.min.js"></script>
+    <script src="~/template/bulkapp/vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="~/template/bulkapp/vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="~/template/bulkapp/vendors/isotope/isotope-min.js"></script>
+    <script src="~/template/bulkapp/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="~/template/bulkapp/js/jquery.ajaxchimp.min.js"></script>
+    <script src="~/template/bulkapp/vendors/counter-up/jquery.waypoints.min.js"></script>
+    <script src="~/template/bulkapp/vendors/counter-up/jquery.counterup.js"></script>
+    <script src="~/template/bulkapp/js/mail-script.js"></script>
+    <script src="~/template/bulkapp/vendors/popup/jquery.magnific-popup.min.js"></script>
+    <script src="~/template/bulkapp/js/theme.js"></script>
+    <!-- contact js -->
+    <script src="~/template/bulkapp/js/jquery.form.js"></script>
+    <script src="~/template/bulkapp/js/jquery.validate.min.js"></script>
+    <script src="~/template/bulkapp/js/contact.js"></script>
+    <!--gmaps Js-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+    <script src="~/template/bulkapp/js/gmaps.min.js"></script>
+    <script src="~/template/bulkapp/js/theme.js"></script>
+</body>
+</html>

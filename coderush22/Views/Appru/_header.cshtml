@@ -1,0 +1,30 @@
+﻿<header id="header">
+    <div class="container main-menu">
+        <div class="row align-items-center justify-content-between d-flex">
+            <div id="logo">
+                <a href="@Url.Action("Index", "Appru")"><img src="~/template/appru/img/logo.png" alt="" title="" /></a>
+            </div>
+            <nav id="nav-menu-container">
+                <ul class="nav-menu">
+                    <li class="menu-active"><a href="@Url.Action("Index", "Appru")">Home</a></li>
+                    <li><a href="@Url.Action("About", "Appru")">About</a></li>
+                    <li><a href="@Url.Action("Pricing", "Appru")">Pricing</a></li>
+                    <li class="menu-has-children">
+                        <a href="">Pages</a>
+                        <ul>
+                            <li><a href="@Url.Action("Elements", "Appru")">Elements</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-has-children">
+                        <a href="">Blog</a>
+                        <ul>
+                            <li><a href="@Url.Action("BlogHome", "Appru")">Blog Home</a></li>
+                            <li><a href="@Url.Action("BlogSingle", "Appru")">Blog Single</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="@Url.Action("Contact", "Appru")">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>

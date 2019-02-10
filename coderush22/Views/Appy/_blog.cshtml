@@ -1,0 +1,70 @@
+﻿<!doctype html>
+<html class="no-js" lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Ashekur Rahman">
+    <meta name="description" content="">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Appy - Asp.Net Core 2.2</title>
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="~/template/appy/images/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/ico" href="~/template/appy/images/favicon.ico" />
+    <!-- Plugin-CSS -->
+    <link rel="stylesheet" href="~/template/appy/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/template/appy/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/template/appy/css/linearicons.css">
+    <link rel="stylesheet" href="~/template/appy/css/magnific-popup.css">
+    <link rel="stylesheet" href="~/template/appy/css/animate.css">
+    <!-- Main-Stylesheets -->
+    <link rel="stylesheet" href="~/template/appy/css/normalize.css">
+    <link rel="stylesheet" href="~/template/appy/style.css">
+    <link rel="stylesheet" href="~/template/appy/css/responsive.css">
+    <script src="~/template/appy/js/vendor/modernizr-2.8.3.min.js"></script>
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body data-spy="scroll" data-target=".mainmenu-area">
+    <!-- Preloader-content -->
+    <div class="preloader">
+        <span><i class="lnr lnr-sun"></i></span>
+    </div>
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <h1 class="white-color">@ViewData["title"]</h1>
+                    <ul class="breadcrumb">
+                        <li><a href="@Url.Action("Index", "Appy")">Home</a></li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- MainMenu-Area -->
+    @await Html.PartialAsync("_header")
+    <!-- MainMenu-Area-End -->
+    @RenderBody()
+    <!-- Footer-Area -->
+    @await Html.PartialAsync("_footer")
+    <!-- Footer-Area-End -->
+    <!--Vendor-JS-->
+    <script src="~/template/appy/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="~/template/appy/js/vendor/jquery-ui.js"></script>
+    <script src="~/template/appy/js/vendor/bootstrap.min.js"></script>
+    <!--Plugin-JS-->
+    <script src="~/template/appy/js/owl.carousel.min.js"></script>
+    <script src="~/template/appy/js/contact-form.js"></script>
+    <script src="~/template/appy/js/ajaxchimp.js"></script>
+    <script src="~/template/appy/js/scrollUp.min.js"></script>
+    <script src="~/template/appy/js/magnific-popup.min.js"></script>
+    <script src="~/template/appy/js/wow.min.js"></script>
+    <!--Main-active-JS-->
+    <script src="~/template/appy/js/main.js"></script>
+</body>
+</html>

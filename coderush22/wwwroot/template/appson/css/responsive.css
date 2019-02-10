@@ -1,0 +1,27 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Nav Section */
+    
+   
+}
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    /* Utility Classes */
+    
+    
+}
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {}
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 240px) and (max-width: 480px) {
+    /* Hero Section*/
+    
+    
+}

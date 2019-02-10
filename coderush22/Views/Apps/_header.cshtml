@@ -1,0 +1,31 @@
+﻿<header class="default-header">
+    <nav class="navbar navbar-expand-lg  navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="@Url.Action("Index", "Apps")">
+                <img src="~/template/apps/img/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="lnr lnr-menu"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li><a href="@Url.Action("Index", "Apps")#home">Home</a></li>
+                    <li><a href="@Url.Action("Index", "Apps")#service">Service</a></li>
+                    <li><a href="@Url.Action("Index", "Apps")#feature">feature</a></li>
+                    <li><a href="@Url.Action("Index", "Apps")#price">price</a></li>
+                    <li><a href="@Url.Action("Index", "Apps")#faq">Faq</a></li>
+                    <!-- Dropdown -->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            Pages
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="@Url.Action("Generic", "Apps")">Generic</a>
+                            <a class="dropdown-item" href="@Url.Action("Elements", "Apps")">Elements</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>

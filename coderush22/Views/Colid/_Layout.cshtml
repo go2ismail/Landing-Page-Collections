@@ -1,0 +1,63 @@
+﻿<!doctype html>
+<html class="no-js" lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="John Doe">
+    <meta name="description" content="">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>@ViewData["Title"] - Asp.Net Core 2.2</title>
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="~/template/colid/images/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/ico" href="~/template/colid/images/favicon.ico" />
+    <!-- Plugin-CSS -->
+    <link rel="stylesheet" href="~/template/colid/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/template/colid/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/template/colid/css/themify-icons.css">
+    <link rel="stylesheet" href="~/template/colid/css/magnific-popup.css">
+    <link rel="stylesheet" href="~/template/colid/css/animate.css">
+    <!-- Main-Stylesheets -->
+    <link rel="stylesheet" href="~/template/colid/css/normalize.css">
+    <link rel="stylesheet" href="~/template/colid/style.css">
+    <link rel="stylesheet" href="~/template/colid/css/responsive.css">
+    <script src="~/template/colid/js/vendor/modernizr-2.8.3.min.js"></script>
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body data-spy="scroll" data-target="#primary-menu">
+    <div class="preloader">
+        <div class="sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+        </div>
+    </div>
+    <!--Mainmenu-area-->
+    @await Html.PartialAsync("_header")
+    <!--Mainmenu-area/-->
+
+    @RenderBody()
+
+
+    @await Html.PartialAsync("_footer")
+
+
+    <!--Vendor-JS-->
+    <script src="~/template/colid/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="~/template/colid/js/vendor/bootstrap.min.js"></script>
+    <!--Plugin-JS-->
+    <script src="~/template/colid/js/owl.carousel.min.js"></script>
+    <script src="~/template/colid/js/contact-form.js"></script>
+    <script src="~/template/colid/js/jquery.parallax-1.1.3.js"></script>
+    <script src="~/template/colid/js/scrollUp.min.js"></script>
+    <script src="~/template/colid/js/magnific-popup.min.js"></script>
+    <script src="~/template/colid/js/wow.min.js"></script>
+    <!--Main-active-JS-->
+    <script src="~/template/colid/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+﻿<nav class="mainmenu-area" data-spy="affix" data-offset-top="200">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary_menu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="@Url.Action("Index", "Appy")"><img src="~/template/appy/images/logo.png" alt="Logo"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="primary_menu">
+            <ul class="nav navbar-nav mainmenu">
+                <li class="active"><a href="@Url.Action("Index", "Appy")#home_page">Home</a></li>
+                <li><a href="@Url.Action("Index", "Appy")#about_page">About</a></li>
+                <li><a href="@Url.Action("Index", "Appy")#features_page">Features</a></li>
+                <li><a href="@Url.Action("Index", "Appy")#gallery_page">Gallery</a></li>
+                <li><a href="@Url.Action("Index", "Appy")#price_page">Pricing</a></li>
+                <li><a href="@Url.Action("Index", "Appy")#questions_page">FAQ</a></li>
+                <li><a href="@Url.Action("Blog", "Appy")">Blog</a></li>
+                <li><a href="@Url.Action("Index", "Appy")#contact_page">Contacts</a></li>
+            </ul>
+            <div class="right-button hidden-xs">
+                <a href="#">Sign Up</a>
+            </div>
+        </div>
+    </div>
+</nav>
