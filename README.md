@@ -5,7 +5,7 @@ original HTML version can be download from [Colorlib](https://colorlib.com)
 support by [CodeRush.CO] source code collections (https://coderush.co)
 
 
-![landingpage](coderush22/wwwroot/lp0.png)
+![landingpage](coderush22/wwwroot/images/lp0.png)
 
 experience the azure online [demo](https://landing-page-lite.azurewebsites.net/Appru)
 experience the azure online [demo](https://landing-page-lite.azurewebsites.net/Apps)
@@ -15,13 +15,13 @@ experience the azure online [demo](https://landing-page-lite.azurewebsites.net/B
 experience the azure online [demo](https://landing-page-lite.azurewebsites.net/Colid)
 experience the azure online [demo](https://landing-page-lite.azurewebsites.net/Gaas)
 
-![landingpage](coderush22/wwwroot/lp1.png)
-![landingpage](coderush22/wwwroot/lp2.png)
-![landingpage](coderush22/wwwroot/lp3.png)
-![landingpage](coderush22/wwwroot/lp4.png)
-![landingpage](coderush22/wwwroot/lp5.png)
-![landingpage](coderush22/wwwroot/lp6.png)
-![landingpage](coderush22/wwwroot/lp7.png)
+![landingpage](coderush22/wwwroot/images/lp1.png)
+![landingpage](coderush22/wwwroot/images/lp2.png)
+![landingpage](coderush22/wwwroot/images/lp3.png)
+![landingpage](coderush22/wwwroot/images/lp4.png)
+![landingpage](coderush22/wwwroot/images/lp5.png)
+![landingpage](coderush22/wwwroot/images/lp6.png)
+![landingpage](coderush22/wwwroot/images/lp7.png)
 
 # Development Tools & Environment
 
