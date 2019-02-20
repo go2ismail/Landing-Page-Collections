@@ -1,6 +1,6 @@
 # Landing-Page-Collections
 
-Beautiful landing page collections developed using Asp.Net Core 2.2
+Beautiful landing page collections that will help your growth hacking effort developed using Asp.Net Core 2.2
 original HTML version can be download from [Colorlib](https://colorlib.com)
 support by [CodeRush.CO] source code collections (https://coderush.co)
 
